@@ -1,0 +1,13 @@
+#+TITLE: JavaScript
+#+DESCRIPTION: Comments in JS
+#+AUTHOR: Linux-DEX
+
+* Comments
+JavaScript comments are used to explain the purpose of the code.
+
+There are two common ways to write comments in javascript:
+  + Single-Line Comments
+  + Multi-line Comments
+
+** Single-line comments
+We can start the single-line comment with the *double forward slash(//)*.
