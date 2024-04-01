@@ -1,0 +1,5 @@
+#+TITLE: JavaScript
+#+DESCRIPTION: Type Conversions Notes
+#+AUTHOR: Linux-DEX
+
+* Type Conversions

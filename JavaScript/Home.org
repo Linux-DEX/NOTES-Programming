@@ -24,4 +24,8 @@
 * Content
 ** Basic
 + [[./consoleMethod.org][console.log]]
-+ [[./Comments.org][comments]]
++ [[./Comments.org][Comments]]
++ [[./Variable.org][Variable]]
++ [[./LetAndVar.org][Let and Var]]
++ [[./Datatype.org][Data Type]]
++ [[./TypeConversion.org][Type Conversion]]
