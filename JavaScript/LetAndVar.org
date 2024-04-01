@@ -1,0 +1,44 @@
+#+TITLE: JavaScript
+#+DESCRIPTION: Let & Var in JS
+#+AUTHOR: Linux-DEX
+
+* Let keyword
++ The *let* statement is used to declare a local variable in Javascript.
++ It is similar to the *var* keyword, but /it has some restriction in scoping in comparison of the var keyword/.
++ The let keyword can enhance our code readability and decreases the change of programming error.
++ A variable declared with the *let keyword in limited to the* ~block-scoped only~.
+
+#+begin_example js
+let greeter = "Hey hi";
+let times = 5;
+if ( times > 3 )
+{
+        let hello = "Say Hello javascript";
+        console.log(hello);
+}
+console.log(hello);
+#+end_example
+
++ *output*:
+#+begin_example text
+console.log(hello) // compile error: greeter is not defined
+#+end_example
+
+* Var keyword
++ The *var* statement is used to declare a variable in javascript.
++ A variablej decalred with the *var keyword* is defined throughout the program.
+
+#+begin_example js
+var greeter = "hey hi";
+var times = 5;
+if ( times > 3 )
+{
+        var greeter = "Say Hello javascript";
+}
+console.log(greeter)
+#+end_example
+
++ *output*:
+#+begin_example
+Say Hello Javascript
+#+end_example
