@@ -15,6 +15,7 @@ Javascript supports the following types of operators.
 
 * Arithmetic Operators
 
+#+begin_example
 | Operator | Description    | Example |
 |----------+----------------+---------|
 | +        | Addition       | x + y   |
@@ -24,9 +25,12 @@ Javascript supports the following types of operators.
 | %        | Modulus        | y % x   |
 | ++       | Increment      | x++     |
 | --       | Decreases      | x--     |
+#+end_example
+
 
 * Comparison Operators
 
+#+begin_example
 | Operator | Description              | Example |
 |----------+--------------------------+---------|
 | ==       | Equal                    | x == y  |
@@ -37,17 +41,23 @@ Javascript supports the following types of operators.
 | <        | Less than                | x < y   |
 | >=       | Greater than or equal to | x >= y  |
 | <=       | Less than or equal to    | x <=y   |
+#+end_example
+
 
 * Logical Operators
 
+#+begin_example
 | Operator | Description | Example |
 |----------+-------------+---------|
 | &&       | Logical AND | x && y  |
 | ||       | Logical OR  | x || y  |
 | !        | Logical NOT | !y      |
+#+end_example
+
 
 * Bitwise Operators
 
+#+begin_example
 | Operator | Description           | Example |
 |----------+-----------------------+---------|
 | &        | Bitwise AND           | x & y   |
@@ -57,9 +67,11 @@ Javascript supports the following types of operators.
 | <<       | Left Shift            | x << 1  |
 | >>       | Right Shift           | x >> 1  |
 | >>>      | Right shift with zero | x >>> 1 |
+#+end_example
+
 
 * Assignment Operators
-
+#+begin_example
 | Operator | Description              | Example   |
 |----------+--------------------------+-----------|
 | =        | Simple assignment        | z = y + x |
@@ -68,9 +80,12 @@ Javascript supports the following types of operators.
 | *=       | Multiply and Assignment  | z *= x    |
 | /=       | Divide and Assignment    | z /= x    |
 | %=       | Modules and Assignment   | z %= x    |
+#+end_example
+
 
 * Miscellaneous Operators
 
+#+begin_example
 | Operator | Description                                                         |
 |----------+---------------------------------------------------------------------|
 | ? :      | Conditional                                                         |
@@ -82,3 +97,4 @@ Javascript supports the following types of operators.
 | yield    | used to pause and resume a generator function                       |
 | ...      | Spread                                                              |
 | **       | Exponentiation                                                      |
+#+end_example
