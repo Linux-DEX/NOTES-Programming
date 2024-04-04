@@ -30,3 +30,4 @@
 + [[./Datatype.org][Data Type]]
 + [[./TypeConversion.org][Type Conversion]]
 + [[./StrictMode.org][Strict Mode]]
++ [[./Operator.org][Operator]]
