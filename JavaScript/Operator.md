@@ -1,9 +1,6 @@
-#+TITLE: JavaScript
-#+DESCRIPTION: Operator Notes
-#+AUTHOR: Linux-DEX
+# Operator
 
-* Operator
-In Javascript, an *operator* is a symbol that performs an operation on one or more operands, such as variable or values, and returns a result.
+In Javascript, an **operator** is a symbol that performs an operation on one or more operands, such as variable or values, and returns a result.
 
 Javascript supports the following types of operators.
 + Arithmetic Operators
@@ -13,11 +10,10 @@ Javascript supports the following types of operators.
 + Assignment Operators
 + Miscellaneous Operators
 
-* Arithmetic Operators
+## Arithmetic Operators
 
-#+begin_example
 | Operator | Description    | Example |
-|----------+----------------+---------|
+| -------- | -------------- | ------- |
 | +        | Addition       | x + y   |
 | -        | Substracts     | x - y   |
 | *        | Multiplication | x * y   |
@@ -25,70 +21,55 @@ Javascript supports the following types of operators.
 | %        | Modulus        | y % x   |
 | ++       | Increment      | x++     |
 | --       | Decreases      | x--     |
-#+end_example
 
+## Comparison Operators
 
-* Comparison Operators
-
-#+begin_example
 | Operator | Description              | Example |
-|----------+--------------------------+---------|
+| -------- | ------------------------ | ------- |
 | ==       | Equal                    | x == y  |
 | !=       | Not Equal                | x != y  |
-| = = =    | Strict equal             | x ===y  |
-| !==      | Strict inequal           | x !==y  |
+| = = =    | Strict equal             | x === y |
+| !==      | Strict inequal           | x !== y |
 | >        | Greater than             | x > y   |
 | <        | Less than                | x < y   |
 | >=       | Greater than or equal to | x >= y  |
 | <=       | Less than or equal to    | x <=y   |
-#+end_example
 
+## Logical Operators
 
-* Logical Operators
+| Operator | Description | Example  |
+| -------- | ----------- | -------- |
+| &&       | Logical AND | x && y   |
+| \|\|     | Logical OR  | x \|\| y |
+| !        | Logical NOT | !y       |
+## Bitwise Operators
 
-#+begin_example
-| Operator | Description | Example |
-|----------+-------------+---------|
-| &&       | Logical AND | x && y  |
-| ||       | Logical OR  | x || y  |
-| !        | Logical NOT | !y      |
-#+end_example
-
-
-* Bitwise Operators
-
-#+begin_example
 | Operator | Description           | Example |
-|----------+-----------------------+---------|
+| -------- | --------------------- | ------- |
 | &        | Bitwise AND           | x & y   |
-| |        | Bitwise OR            | x | y   |
+| \|       | Bitwise OR            | x \| y  |
 | ^        | Bitwise XOR           | x ^ y   |
-| ~        | Bitwise Notes         | ~y      |
+| \~       | Bitwise Notes         | \~y     |
 | <<       | Left Shift            | x << 1  |
 | >>       | Right Shift           | x >> 1  |
 | >>>      | Right shift with zero | x >>> 1 |
-#+end_example
 
+## Assignment Operators
 
-* Assignment Operators
-#+begin_example
 | Operator | Description              | Example   |
-|----------+--------------------------+-----------|
+| -------- | ------------------------ | --------- |
 | =        | Simple assignment        | z = y + x |
 | +=       | Add and Assignment       | x +=y     |
 | -=       | Substract and Assignment | z -= x    |
-| *=       | Multiply and Assignment  | z *= x    |
+| \*\=     | Multiply and Assignment  | z \*\= x  |
 | /=       | Divide and Assignment    | z /= x    |
 | %=       | Modules and Assignment   | z %= x    |
-#+end_example
 
+## Miscellaneous operators
 
-* Miscellaneous Operators
-
-#+begin_example
 | Operator | Description                                                         |
-|----------+---------------------------------------------------------------------|
-| ? :      | Conditional                                                         |
+| -------- | ------------------------------------------------------------------- |
+| ?  :     | Conditional                                                         |
 | typeof   | return data type                                                    |
 | ??       | Nullish coalescing Operator                                         |
 | delete   | remove property from an object                                      |
@@ -97,4 +78,3 @@ Javascript supports the following types of operators.
 | yield    | used to pause and resume a generator function                       |
 | ...      | Spread                                                              |
 | **       | Exponentiation                                                      |
-#+end_example

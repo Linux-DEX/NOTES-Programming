@@ -1,10 +1,6 @@
-#+TITLE: JavaScript
-#+DESCRIPTION: Math Object in JS
-#+AUTHOR: Linux-DEX
-
-* Math Object
+# Math Object
 In JavaScript the Math Object provides a lots of methods to work with numbers.
-#+begin_example js
+```js
 const PI = Math.PI
 
 console.log(PI)                            // 3.141592653589793
@@ -60,18 +56,18 @@ Math.sin(60)
 
 Math.cos(0)
 Math.cos(60)
-#+end_example
+```
 
-* Random Number Generator
-The JS Math Object has a *random()* method number generator which generates number from 0 to 0.999999...
+## Random Number Generator
+The JS Math Object has a **random()** method number generator which generates number from 0 to 0.999999...
 
-#+begin_example js
+```js
 let randomNum = Math.random() // generate 0 to 0.9999...
-#+end_example
+```
 
 Now, let us see how we can use random() method to generate a random number between 0 and 10:
 
-#+begin_example js
+```js
 let randomNum = Math.random()         // generates 0 to 0.999
 let numBtnZeroAndTen = randomNum * 11
 
@@ -79,4 +75,4 @@ console.log(numBtnZeroAndTen)         // this gives: min 0 and max 10.99
 
 let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
 console.log(randomNumRoundToFloor)    // this gives between 0 and 10
-#+end_example
+```

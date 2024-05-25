@@ -3,7 +3,7 @@
 
 + Set a name that is identifiable for credit when review version history
 ```bash
-git config --global uesr.name "[firstname lastname]"
+git config --global user.name "[firstname lastname]"
 ```
 
 + Set a email address that will be associated with each history marker
