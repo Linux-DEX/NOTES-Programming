@@ -33,5 +33,7 @@
 + [Operator](./Operator.md)
 + [Control Flow](./Control_Flow.md)
 + [Functions](./Function.md)
++ [Javascript Object](./Javascript_Object.md)
++ [Array](./Array.md)
 
 
