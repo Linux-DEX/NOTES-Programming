@@ -99,6 +99,8 @@ const arr3 = [true, false, true, true]
 > *The array index starts from 0. So, you can access the array element using the index.*
 > ```js
 > let number = arr[index]
+> ```
+
 
 ```js
 const nums = [1, 5, 6, 8, 9]
@@ -110,6 +112,7 @@ console.log(nums[2])  // 6
 > *The length property of the array is used to find the length of  the array.*
 > ```js
 > let len = arr.length;
+> ```
 
 ```js
 const nums = [1, 5, 6, 8, 90]

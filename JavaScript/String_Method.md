@@ -30,29 +30,30 @@ let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES
 
 ## Long Literal Strings
 + A string be a single character or paragraph or a page.
-+ If the string length is too big it does not fit in one line. We can use backslash character(\) at the end of each line to indicate that the string will continue on the next line.
++ If the string length is too big it does not fit in one line. We can use backslash character(\\) at the end of each line to indicate that the string will continue on the next line.
 
-  ```js
-  const paragraph = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki.\
-  I am a teacher and I love teaching. I teach HTML, CSS, JavaScript, React, Redux, \
-  Node.js, Python, Data Analysis and D3.js for anyone who is interested to learn. \
-  In the end of 2019, I was thinking to expand my teaching and to reach \
-  to global audience and I started a Python challenge from November 20 - December 19.\
-  It was one of the most rewarding and inspiring experience.\
-  Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
-  I hope you are enjoying too."
+```js
+const paragraph = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki.\
+I am a teacher and I love teaching. I teach HTML, CSS, JavaScript, React, Redux, \
+Node.js, Python, Data Analysis and D3.js for anyone who is interested to learn. \
+In the end of 2019, I was thinking to expand my teaching and to reach \
+to global audience and I started a Python challenge from November 20 - December 19.\
+It was one of the most rewarding and inspiring experience.\
+Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
+I hope you are enjoying too."
 ```
+
 
 ## Escape Sequences in Strings
 In javascript and other programming languages `\` followed by some characters is an escape sequence.
 
-| escape sequences | description |
-| ---------------- | ----------- |
-| `\n`             | New  line   |
-| `\t` | Tab, means 8 spaces |
-| `\\` | Back slash          |
-| `\'` | Single quote(')     |
-| `\"` | Double quote(")     |
+| escape sequences | description         |
+| ---------------- | ------------------- |
+| \\n              | New  line           |
+| \\t              | Tab, means 8 spaces |
+| \\\\             | Back slash          |
+| \\'              | Single quote(')     |
+| \\"              | Double quote(")     |
 
 ## Template Literals (Template Strings)
 We can inject data as expressions inside a template string. To inject data we enclose the expression with a curly bracket({}) preceded by a $ sign.

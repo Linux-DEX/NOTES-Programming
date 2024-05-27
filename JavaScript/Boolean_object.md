@@ -10,7 +10,8 @@ const val = new Boolean(value);
 > [!NOTE]
 > *you can create a boolean primitive in javascript by assigning a boolean value to a varaible*
 > ```js
-let bool = true
+> let bool = true
+> ```
 
 ## Boolean Properties
 
