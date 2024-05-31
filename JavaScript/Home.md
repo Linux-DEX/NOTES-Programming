@@ -35,5 +35,6 @@
 + [Functions](./Function.md)
 + [Javascript Object](./Javascript_Object.md)
 + [Array](./Array.md)
++ [Regular Expressions](./Regular_expression.md)
 
 
